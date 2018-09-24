@@ -1,0 +1,38 @@
+.outer-square{
+    width:200px;
+    height:200px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.inner-square{
+    width:100px;
+    height:100px;
+    position: absolute;
+    animation:square 2s infinite;
+    
+}
+#inner-square-1{
+    background-color:rgb(243, 93, 123);
+    animation-delay: 0s;
+}
+#inner-square-2{
+    background-color: rgb(223, 65, 223);
+   animation-delay: -.5s;
+
+}
+#inner-square-3{
+    background-color:rgb(17, 180, 221);
+    animation-delay: -1s;
+}
+#inner-square-4{
+    background-color:rgb(255, 230, 0);
+    animation-delay:-1.5s;
+}
+@keyframes square{
+    0%   { left:100px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  {left:0px; top:100px;}
+    75%  { left:100px; top:100px;}
+    100% { left:100px; top:0px;}
+}
