@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 300 200 a 35 35 0 0 0 0 270" fill="blue"></path>
+
+                    <path d="M 300 205 a 35 35 0 0 1 0 260" stroke="gray" fill="white" stroke-width="10" fill-opacity="0.5"></path>
+                </svg>

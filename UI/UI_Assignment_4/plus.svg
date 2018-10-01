@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <rect id="rectangle" fill="white" width="200" height="200"/>
+        <circle id="circle" fill="blue" cx="162.5" cy="212.5" r="100"/>
+            <polygon points="100,200 150,200 150,150 175,150 175,200 225,200 225,225
+             175,225 175,275 150,275 150,225 100,225 100,200 " fill="white" />
+             
+       
+</svg>
