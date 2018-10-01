@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <script>
+            function draw() {
+                var canvas = document.getElementById('canvas-screen');
+                if (canvas.getContext) {
+                    var ctx = canvas.getContext('2d');
+                    ctx.fillStyle='green';
+                    ctx.fillRect(0, 0, 200, 200);  
+
+                   
+                    
+                    ctx.beginPath();
+                    ctx.fillStyle ='blue';
+                    ctx.arc(400,100,100,0,2*Math.PI,true);
+                    ctx.fill();
+
+                   
+                    ctx.beginPath();
+                    ctx.strokeStyle ='pink';
+                    ctx.arc(105,400,100,0,2*Math.PI,true);
+                    ctx.lineWidth=10;
+                    ctx.stroke();
+                    
+                    
+                    ctx.beginPath();
+                    ctx.moveTo(400,300);
+                    ctx.lineTo(300,500);
+                    ctx.lineTo(500,500);
+                    ctx.closePath();
+                    ctx.fillStyle='pink';
+                    ctx.fill();
+
+
+                    ctx.beginPath();
+                    ctx.fillStyle ='blue';
+                    ctx.arc(105,700,100,(Math.PI/2)*3,Math.PI/2,true);
+                    ctx.fill();
+
+                    ctx.beginPath();
+                    ctx.strokeStyle ='gray';
+                    ctx.lineWidth=20;
+                    ctx.fillStyle='white';
+                    ctx.arc(105,700,90,(Math.PI/2)*3,Math.PI/2,false);
+                    ctx.stroke();
+                    ctx.fill();
+
+                    
+                }
+}
+        </script>
+
+    </head>
+    <body onload="draw()">
+        <canvas id="canvas-screen" width=1000 height=1000>
+
+        </canvas>
+    </body>
+</html>

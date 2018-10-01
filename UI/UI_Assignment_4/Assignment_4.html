@@ -1,0 +1,69 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            <link rel="stylesheet" href="Assignment_4.css">
+    </head>
+    <body>
+        <h2>Contact Us today!</h2>
+        <form action="#" metgod="post" >
+            <div class="input">
+                <div class="input-field-label">Firstname</div>
+                <div class="input-field"><i class="fa fa-user icon"></i><input  type="text" placeholder="First Name" minlength="2" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Lastname</div>
+                <div class="input-field"><i class="fa fa-user icon"></i><input  type="text" placeholder="Last Name" minlength="2" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">E-Mail</div>
+                <div class="input-field"><i class="fa fa-envelope icon"></i><input  type="email" placeholder="Email Address" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Phone #</div>
+                <div class="input-field"><i class="fa fa-phone icon"></i><input  type="text" pattern="\d*" minlength="10" maxlength="10" placeholder="(865)555-212" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Address</div>
+                <div class="input-field"><i class="fa fa-home icon"></i><input  type="text" placeholder="Address" minlength="6" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">City</div>
+                <div class="input-field"><i class="fa fa-home icon"></i><input  type="text" placeholder="City" minlength="4" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">State</div>
+                <div class="input-field">
+                        <i class="fa fa-list icon"></i>
+                    <select  required>
+                            <option value="Please select your state">Please select your state</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Gujrat">Gujrat</option>
+                            <option value="Punjab">Punjab</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Zip Code</div>
+                <div class="input-field"><i class="fa fa-home icon"></i><input  type="number" placeholder="Zipcode" required ></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Website or domain name</div>
+                <div class="input-field"><i class="fa fa-globe-asia icon"></i><input  type="text" placeholder="Address" required></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Do you have hosting ?</div>
+                <div class="input-field"> <input type="radio" name="Y" value="YES" checked id="radio-1"> Yes<br/>
+                    <input type="radio" name="N" value="NO" id="radio-2"> No<br></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label">Project description</div>
+                <div class="input-field"><i class="fa fa-pencil-alt icon" id="pencil"></i><textarea rows="3" cols="22" placeholder="Eneter your description here"></textarea></div>
+            </div>
+            <div class="input">
+                <div class="input-field-label"></div>
+                <div class="input-field"><button type="submit" class="submit-button">Send<i class="fa fa-paper-plane icon" id="button-icon" ></i></button>
+            </div>
+        </form>
+            
+    </body>
+</html>
