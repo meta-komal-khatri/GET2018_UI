@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	font-family:verdana;
+}
+#header{
+	background-color:#6495ed;
+	
+}
+section{
+	background-size:100% 100%;
+	max-width: 100%;
+	height:auto;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+.inner-div{
+	margin:auto;
+	display:flex;
+	flex-wrap:wrap;
+	width:1000px;
+	padding:20px;
+}
+li{
+	list-style:none;
+	display:inline;
+}
+.inner-div img{
+	vertical-align:middle;
+}
+.inner-div a{
+	padding-left:10px;
+	padding-right:10px;
+	color: white;
+    text-decoration: none;
+}
+.links{
+	flex:1;
+	text-align:center;	
+}
+#cover{
+	background-image: url(homebg.png);
+} 
+#cover .inner-div{
+	font-size:30px;
+	color:white;	
+}
+#cover .inner-div div{
+	width:50%;
+}
+#cover img{
+	max-width: 100%;
+	height: auto;
+}
+#cover a{
+	font-size: medium;
+	color:white;
+	text-decoration: none;
+}
+#cover  h1{
+	padding-bottom:60px;
+}
+.download-link-button{
+    background-color:orangered;
+    text-align: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+}
+.feature-link-button{
+    background-color:midnightblue;
+	text-align: center;
+   	padding-left: 25px;
+	padding-right: 25px;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+   	border-radius: 5px;
+}
+#feature{
+	background-image: url(bodybg.png);
+	padding-bottom: 0px;	
+}
+.section-header{
+	width: 1000px;
+	padding-top:0px;
+}
+.section-body{
+	display:flex;
+	width:1000px;
+	padding-top:100px;
+}
+.section-body div{
+	padding:10px;
+}
+.feature-div{
+	display: flex;
+}
+.heading{
+    text-align: center;
+    color:royalblue;
+}
+.paragraph{
+    text-align: center;
+    color:gray;
+    padding-top: 0%;
+}
+.section-body p{
+	text-align: left;
+}
+.section-footer{
+	width:1000px;
+	display:flex;
+	justify-content: center;
+	padding:50px;
+}
+.screenshot{
+	display:flex;
+	width:1000px;
+	justify-content: space-evenly
+}
+#screenshot .section-body{
+	flex-wrap: wrap;
+}
+.screenshot-image{
+	width:30%;
+}
+.screenshot-content{
+	display: flex;
+	flex-wrap: wrap;
+	width:35%;
+	align-self: center;
+}
+.screenshot-content p{
+	text-align: left;
+}
+
+#reviews .section-body{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+#reviews .section-body div{
+	width:40%;
+}
+.para{
+	padding-top:10px;
+	font-size:small;
+}
+#bottom{
+	background-image: url(downloadbg.png);
+	color :white;
+	padding-bottom: 0px;
+}
+#bottom h1{
+	text-align: left;	
+}
+#bottom p{
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+#footer{
+	background-color:  #383A53;
+}
+#footer hr{
+	display: block;
+    width:80%;
+    height:0.0001px;
+}
+#footer p{
+	text-align: center;
+	color: gray;
+	font-size: small;
+}
+
+
+
