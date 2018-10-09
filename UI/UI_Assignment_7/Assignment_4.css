@@ -1,0 +1,43 @@
+.input {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.input-field{
+    display:flex;
+    width:50%;
+}
+
+.input-field-label{
+    padding-top:5px;
+    padding-right: 1%;
+    text-align: right;
+    width:50%;
+}
+.submit-button{
+    align-content: center;
+    background-color: orange;
+    border-radius: 2px;
+    border-style: none;
+}
+body{
+    background-color:
+    rgba(221, 221, 221, 0.842);
+}
+
+.icon {
+    background:  rgba(173, 170, 170, 0.842);
+    /* border: 5px; */
+    padding:5px;
+    text-align: center;
+    /* border:10px;
+    border-bottom-color: black; */
+}
+#button-icon{
+    background:none;
+}
+
+form.submitted input:invalid{
+  border:1px solid red;
+}
