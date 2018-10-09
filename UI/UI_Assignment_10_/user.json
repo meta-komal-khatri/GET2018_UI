@@ -1,0 +1,82 @@
+{
+  "user": [
+    {
+      "Id": 1,
+      "Name": "Nitesh",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 2,
+      "Name": "Nitesh",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 3,
+      "Name": "Akshat",
+      "Phone": "9461009765",
+      "city": "Mumbai"
+    },
+    {
+      "id": 4,
+      "Name": "Nitesh",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 5,
+      "Name": "Shubham",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 6,
+      "Name": "Mayank",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 7,
+      "Name": "Surbhi",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 8,
+      "Name": "Akshita",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 9,
+      "Name": "Sankalp",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "id": 10,
+      "Name": "Pratiksha",
+      "Phone": "9461009765",
+      "city": "jaipur"
+    },
+    {
+      "Name": "EmployeePortalBoot",
+      "Phone": "234343",
+      "city": "v vdfdef",
+      "id": 11
+    },
+    {
+      "Name": "EmployeePortalBoot",
+      "Phone": "234343",
+      "city": "v vdfdef",
+      "id": 12
+    },
+    {
+      "Name": "EmployeePortalBoot",
+      "Phone": "234343",
+      "city": "v vdfdef",
+      "id": 13
+    }
+  ]
+}
