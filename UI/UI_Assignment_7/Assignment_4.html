@@ -1,0 +1,62 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            <link rel="stylesheet" href="Assignment_4.css">
+            <script src="UI_Assignment_7.js"></script>
+    </head>
+    <body>
+        <h2>Contact Us today!</h2>
+        <form action="details.html" method="post"  id="contact-us">
+            
+            <div class="input">
+                <div class="input-field-label">Firstname</div>
+                <div class="input-field"><i class="fa fa-user icon"></i><input  type="text" placeholder="First Name" name="first_name" id="txt_f_name" onkeyup="firstNameValidation()"></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">Lastname</div>
+                <div class="input-field"><i class="fa fa-user icon"></i><input  type="text" placeholder="Last Name" name = "last_name" id="txt_l_name" onkeyup="lastNameValidation()"></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">E-Mail</div>
+                <div class="input-field"><i class="fa fa-envelope icon"></i><input  type="text" placeholder="Email Address" name="email" id="txt_email" onkeyup="emailValidation()"></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">Phone #</div>
+                <div class="input-field"><i class="fa fa-phone icon"></i><input  type="text"  placeholder="(865)555-212" name="phone_number" id="txt_c_number" onkeyup="contactNumberValidation()" ></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">Address</div>
+                <div class="input-field"><i class="fa fa-home icon"></i><input  type="text" placeholder="Address" minlength="6" name="address" required></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">City</div>
+                <div class="input-field"><i class="fa fa-home icon"></i><input  type="text" placeholder="City" minlength="4" name="city" required></div>
+            </div>
+            
+            <div class="input">
+                <div class="input-field-label">State</div>
+                    <div class="input-field">
+                            <i class="fa fa-list icon"></i>
+                        <select onchange="inputFields()" id="select_state" name="state" required>
+                                <option value="">Please select your state</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Gujrat">Gujrat</option>
+                                <option value="Punjab">Punjab</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input" id="submit-button-div">
+                <div class="input-field-label"></div>
+                <div class="input-field"><button type="submit" class="submit-button" id="submit-button">Send<i class="fa fa-paper-plane icon" id="button-icon" ></i></button>
+            </div>
+        </form>
+            
+    </body>
+</html>
