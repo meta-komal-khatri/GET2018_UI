@@ -1,0 +1,22 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"Spinach",
+            "price":2.50,
+            "imageUrl":"img/spinach.jpg"
+        },
+        {
+            "id":2,
+            "title":"Bread",
+            "price":3.50,
+            "imageUrl":"img/spinach.jpg"
+        },
+        {
+            "id":3,
+            "title":"Spice",
+            "price":4.50,
+            "imageUrl":"img/spinach.jpg"
+        }
+    ]
+}
